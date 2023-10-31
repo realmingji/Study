@@ -1,0 +1,19 @@
+import java.util.*;
+// Iterator
+public class Main {
+	public static void main(String[] args) {
+		Vector<Integer> vector = new Vector<>();
+		
+		vector.add(10);
+		vector.add(20);
+		vector.add(30);
+		vector.add(40);
+		vector.add(50);
+		
+		Iterator<Integer> iterator = vector.iterator();	// 반복 할 수 있는 데이터를 순차적 검사하는 기능
+		
+		while(iterator.hasNext()) {
+			System.out.print(iterator.next() + " ");
+		}
+	}
+}

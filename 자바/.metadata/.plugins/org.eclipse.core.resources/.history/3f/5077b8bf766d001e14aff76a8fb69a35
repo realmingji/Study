@@ -1,0 +1,8 @@
+
+public class Main {
+	public static void main(String[] args) {
+		char c1 = 'A', c2 = '5';
+		System.out.println(Character.getNumericValue(c1));	// toLowerCase 소문자를 대문자 변경
+		
+	}
+}

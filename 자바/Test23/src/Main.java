@@ -1,0 +1,26 @@
+import java.util.Vector;
+
+class Student {
+	int number;
+	String name;
+	
+	Student(int number, String name){
+		this.number = number;
+		this.name = name;
+	}
+}
+
+
+public class Main {
+	public static void main(String[] args) {
+		Vector<Student> students = new Vector<>();
+		
+		students.add(new Student(1, "홍길동"));
+		students.add(new Student(3, "유재석"));
+		students.add(new Student(4, "강호동"));
+		
+		for(int i = 0; i < students.size(); i++) {
+			System.out.println("학번 : " + students.get(i).number + ", 이름 : "+students.get(i).name);
+		}
+	}
+}

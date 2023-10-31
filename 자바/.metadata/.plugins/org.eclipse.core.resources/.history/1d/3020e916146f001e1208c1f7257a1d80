@@ -1,0 +1,12 @@
+// 입력한 테스틀 파일에 저장
+import java.util.*;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub\
+		Scanner sc = new Scanner(System.in);
+		
+		
+	}
+
+}

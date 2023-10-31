@@ -1,0 +1,10 @@
+
+public class Main {
+	public static void main(String[] args) {
+		char c1 = 'A', c2 = '5';
+		System.out.println(Character.toLowerCase(c1));	// toLowerCase 소문자를 대문자 변경
+		System.out.println(Character.isAlphabetic(c1));	// isAlphabetic 알파벳이냐?
+		System.out.println(Character.isDigit(c2));	// isDigit 숫자냐?
+		
+	}
+}

@@ -1,0 +1,26 @@
+// 링크드리스트
+import java.util.*;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkList<Integer> linkedlist = new LinkList<>();
+		
+		linkedlist.add(10);
+		linkedlist.add(10);
+		linkedlist.add(10);
+		linkedlist.add(10);
+		linkedlist.add(10);
+		linkedlist.add(10);
+		
+		System.out.println(linkedlist.size());
+		
+		for(int i = 0; i<linkedlist.size(); i++) {
+			System.out.println(linkedlist.get(i)+" ");
+		}
+		
+		
+
+	}
+
+}

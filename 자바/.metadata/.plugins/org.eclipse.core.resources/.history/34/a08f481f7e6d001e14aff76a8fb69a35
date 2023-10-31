@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String string = " 안녕하세요 ";
+		System.out.println(string.length());
+		System.out.println(string.contains("ㅋㅋㅋ"));	// contains는 문자열이 포함이 되어있는지 안되었는지 true/false 출력
+		System.out.println(string.concat(" 저는 ooo 입니다."));	// concat는 작성한 문자열을 이어 붙임
+		System.out.println(string.trim());	// trim 공백 없애기
+		System.out.println(string.replace("세요", "십니까"));	// replace 앞에 있는 문자열을 뒤에 있는 문자열로 변경
+		
+		string = "안녕 하세요! 방가워용ㅎㅎ";
+		
+	}
+
+}

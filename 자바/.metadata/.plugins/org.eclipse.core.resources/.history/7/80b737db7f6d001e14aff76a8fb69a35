@@ -1,0 +1,12 @@
+// StringBuffer 사용하기
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StringBuffer stringbuffer = new StringBuffer("안녕하세요.");
+		
+		System.out.println(stringbuffer);
+		System.out.println(stringbuffer.capacity());	// 문자열 길이만큼 늘어남
+	}
+
+}

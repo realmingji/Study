@@ -1,0 +1,10 @@
+// StringTokenizer
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String string = "안녕하세요. 반갑습니다. 감사합니다.";
+		System.out.println(string);
+	}
+
+}

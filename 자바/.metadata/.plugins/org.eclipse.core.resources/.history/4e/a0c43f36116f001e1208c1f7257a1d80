@@ -1,0 +1,39 @@
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		HashMap<Integer,String> hashmap = new HashMap<>();
+		
+		hashmap.put(1, "홍길동");
+		hashmap.put(12, "고양이");
+		hashmap.put(4, "강아지");
+		hashmap.put(31, "쿼카");
+		hashmap.put(6, "무민");;
+		hashmap.put(1, "홍길동");
+		
+		System.out.println(hashmap.size());
+		System.out.println(hashmap.get(12));
+		System.out.println(hashmap.get(4));
+		
+		hashmap.put(31, "악어");
+		System.out.println(hashmap.get(31));
+		
+		hashmap.remove(111);
+		System.out.println(hashmap.get(111));
+		
+		Set<Integer> keyset = hashmap.keySet();
+		Iterator<Integer> iterator = keyset.iterator();
+				
+		while(iterator.hasNext()) {
+			int num = iterator.next();
+			System.out.println("학번 : "+ num);
+		}
+		
+		hashmap.clear();
+		System.out.println(hashmap.size());
+	}
+
+}

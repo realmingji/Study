@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> arrylist = new ArrayList<>();
+		
+		arrylist.add(10);
+		arrylist.add(20);
+		arrylist.add(null);
+		arrylist.add(50);
+		arrylist.add(2, 30);
+		
+		System.out.println(arrylist.size());
+
+	}
+
+}

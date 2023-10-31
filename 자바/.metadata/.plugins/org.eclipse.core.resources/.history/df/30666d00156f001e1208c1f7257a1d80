@@ -1,0 +1,31 @@
+// 입력한 테스틀 파일에 저장
+import java.io.FileWriter;
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub\
+		Scanner sc = new Scanner(System.in);
+		
+		try {
+			FileWriter filewriter = new FileWriter("text.txt");
+			
+			while(true) {
+				String line = sc.nextLine();
+				if(line.length() == 0) {
+					break;
+				}
+				filewriter.write(line);
+				filewriter.write("\r\n");
+		 catch(Exception e) {
+			System.out.println("예외 처리 : " + e);
+		}
+		sc.close();
+			}
+		}
+	}
+}
+				
+
+

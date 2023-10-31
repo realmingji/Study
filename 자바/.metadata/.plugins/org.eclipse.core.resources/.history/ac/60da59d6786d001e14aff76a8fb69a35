@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int x = 9, y = -9, z = 5;
+		double angle = 60.0;
+		
+		System.out.println(Math.PI);
+		System.out.println(Math.E);
+	}
+
+}
